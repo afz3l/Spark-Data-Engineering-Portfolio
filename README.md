@@ -20,7 +20,6 @@ Spark-Data-Engineering-Portfolio/
     │   ├── log_files/
     │   │   ├── log1.txt
     │   │   └── log2.txt
-    │   ├── JDBC.py
     │   ├── Spark_Corrupted_Records.py
     │   ├── Spark_Read_CSV.py
     │   ├── Spark_Read_Json.py
@@ -50,7 +49,6 @@ This section covers ingesting data from different formats and handling edge case
 | `Spark_Read_Json.py` | Parsing single-line and multi-line JSON, handling schema inference |
 | `Spark_Corrupted_Records.py` | Dealing with malformed data using `PERMISSIVE`, `DROPMALFORMED`, and `FAILFAST` modes |
 | `Spark_Read_Write_Parquet.py` | Reading and writing Parquet files with schema evolution |
-| `JDBC.py` | Connecting to relational databases via JDBC |
 | `Text_Files.py` | Processing raw log files and unstructured text |
 ### 02 · Transformations
 The core Spark transformations I use day-to-day:
@@ -69,7 +67,6 @@ The core Spark transformations I use day-to-day:
 | Script | Description |
 |---|---|
 | `Write_Options.py` | Save modes (`overwrite`, `append`, `ignore`, `error`), partitioning, bucketing |
-| `Merge_Into.py` | Upsert patterns using Delta Lake `MERGE INTO` |
 ## Tech Stack
 | Tool | Version |
 |---|---|
