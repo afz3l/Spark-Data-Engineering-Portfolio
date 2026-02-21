@@ -65,9 +65,3 @@ The core Spark transformations I use day-to-day:
 | Script | Description |
 |---|---|
 | `Write_Options.py` | Save modes (`overwrite`, `append`, `ignore`, `error`), partitioning, bucketing |
-## Tech Stack
-| Tool | Version |
-|---|---|
-| Apache Spark | 3.4+ |
-| PySpark | 3.4+ |
-| Python | 3.10+ |
