@@ -77,13 +77,7 @@ The core Spark transformations I use day-to-day:
 | `Join_Types.py` | Inner, Left, Right, Full Outer, Semi, Anti, Cross joins |
 | `Join_Strategies.py` | Broadcast joins, Sort-Merge joins, shuffle optimization, skew handling |
 
-### 04 · Spark UI
-
-| Script | Description |
-|---|---|
-| `UI_Demo.py` | How to read the Spark UI — stages, tasks, DAGs, and spotting performance bottlenecks |
-
-### 05 · Writing Data
+### 04 · Writing Data
 
 | Script | Description |
 |---|---|
