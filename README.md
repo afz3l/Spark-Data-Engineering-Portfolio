@@ -39,9 +39,6 @@ Spark-Data-Engineering-Portfolio/
     │   ├── Join_Strategies.py
     │   └── Join_Types.py
     │
-    ├── 04_UI_Demo/
-    │   └── UI_Demo.py
-    │
     └── 05_Write_Data/
         ├── Merge_Into.py
         └── Write_Options.py
